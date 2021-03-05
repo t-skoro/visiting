@@ -444,8 +444,7 @@ path {
 	margin-bottom: 0;
 }
 .services-image-wrapper {
-	padding-top: 35px;
-	padding-bottom: 35px;
+	padding: 35px 15px;
 	border-radius: 25px;
 	background-color: #f4f5f6;
 	margin-bottom: 55px;
