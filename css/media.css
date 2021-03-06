@@ -95,8 +95,6 @@
 		margin-left: 0;
 	}
 	.side-menu-link {
-		font-size: 14px;
-		font-weight: 600;
 		padding: 0;
 		color: #00cccc;
 	}
@@ -118,7 +116,6 @@
 		display: block;
 		position: absolute;
 		top: 20px;
-		left: center;
 		z-index: 9;
 	}
 	.btn-clouse {
@@ -154,7 +151,7 @@
 		max-width: 50%;
 	}
 	.project-card-description span {
-		font-size: 16px;
+		font-size: 17px;
 		line-height: 1.5;
 	}
 	.content-inner {
@@ -258,7 +255,7 @@
 		margin-bottom: 20px;
 	}
 	.content-inner-subtitle {
-		font-size: 16px;
+		font-size: 17px;
 	}
 	.services-image {
 		flex-direction: column;
@@ -273,6 +270,7 @@
 	}
 	.project-text-list {
 		list-style-type: none;
+		font-size: 16px;
 	}
 	.project-btn-back {
 		font-size: 15px;
