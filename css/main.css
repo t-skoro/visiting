@@ -67,7 +67,7 @@ img {
 	max-width: 120px;
 	padding: 7px;
 	background-color: #fff;
-	border-radius: 15px;
+	border-radius: 4px;
 }
 .side-menu-list {
 	display: flex;
@@ -80,7 +80,6 @@ img {
 	margin-left: 20px;
 }
 .side-menu-item {
-	border-radius: 8px;
 	text-align: center;
 	text-transform: uppercase;
 }
@@ -143,7 +142,7 @@ img {
 	letter-spacing: 0.2em;
 	text-align: center;
 	color: #0f2336;
-	border-radius: 8px;
+	border-radius: 4px;
 	background-color: rgba(255, 255, 255, 0.8);
 }
 .header-subtitle {
@@ -157,7 +156,7 @@ img {
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
 	color: #0f2336;
-	border-radius: 8px;
+	border-radius: 4px;
 	background-color: rgba(255, 255, 255, 0.75);
 }
 .header-arrow {
@@ -196,6 +195,7 @@ img {
 	margin-bottom: 30px;
 	max-width: 540px;
 	background-color: #fff;
+	border-radius: 4px;
 	box-shadow: 0px 10px 30px rgba(15, 35, 54, 0.3);
 	transition: transform 0.2s ease-in;
 }
@@ -298,7 +298,7 @@ path {
 	padding-right: 30px;
 	line-height: 46px;
 	border: 3px solid rgba(255, 255, 255, 0.7);
-	border-radius: 50px;
+	border-radius: 4px;
 	color: rgba(255, 255, 255, 0.7);
 	font-weight: 700;
 	font-size: 16px;
@@ -343,7 +343,7 @@ path {
 	padding-top: 55px;
 	padding-bottom: 55px;
 	margin-bottom: 55px;
-	border-radius: 25px;
+	border-radius: 4px;
 	box-shadow: 0px 10px 30px rgba(15, 35, 54, 0.3);
 }
 .project:last-child {
@@ -398,7 +398,7 @@ path {
 	padding-right: 30px;
 	line-height: 56px;
 	border: 3px solid #00cccc;
-	border-radius: 50px;
+	border-radius: 4px;
 	color: #00cccc;
 	font-weight: 700;
 	font-size: 16px;
@@ -445,7 +445,7 @@ path {
 }
 .services-image-wrapper {
 	padding: 35px 15px;
-	border-radius: 25px;
+	border-radius: 4px;
 	background-color: #f4f5f6;
 	margin-bottom: 55px;
 	box-shadow: 0px 10px 30px rgba(15, 35, 54, 0.3);
@@ -472,7 +472,7 @@ path {
 .content-inner-description {
 	padding: 55px 0;
 	margin-bottom: 55px;
-	border-radius: 25px;
+	border-radius: 4px;
 	background-color: #f4f5f6;
 	box-shadow: 0px 10px 30px rgba(15, 35, 54, 0.3);
 }
@@ -492,7 +492,7 @@ path {
 .services-description {
 	padding: 55px;
 	margin-bottom: 55px;
-	border-radius: 25px;
+	border-radius: 4px;
 	background-color: #f4f5f6;
 	box-shadow: 0px 10px 30px rgba(15, 35, 54, 0.3);
 }
@@ -502,7 +502,7 @@ path {
 	background-color: #fff;
 	box-shadow: 0px 10px 30px rgba(15, 35, 54, 0.3);
 	transition: transform 0.2s ease-in;
-	border-radius: 15px;
+	border-radius: 4px;
 }
 .card-services:hover {
 	transform: translateY(-15px);
