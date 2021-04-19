@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Портфолио</title>
+		<title>Проекты</title>
 		<link
 			rel="SHORTCUT ICON"
 			href="./img/logo/favicon.ico"
@@ -16,178 +16,234 @@
 		<link rel="stylesheet" href="./css/main.css" />
 		<link rel="stylesheet" href="./css/media.css" />
 	</head>
-
 	<body>
-		<header class="header" id="header">
-			<aside class="sidebar sidebar--main">
-				<a href="#" class="burger sidebar-burger">
+		<aside class="sidebar sidebar--project">
+			<a href="#" class="burger sidebar-burger">
+				<img src="./img/icons/door-closed-solid.svg" alt="открыть" />
+			</a>
+			<div class="sidebar-logo">
+				<a href="index.html" class="logo">
 					<img
-						src="./img/icons/door-closed-solid.svg"
-						alt="открыть"
+						src="img/logo/logo-13.png"
+						alt="web-разработка"
+						class="logo-image"
 					/>
 				</a>
-				<div class="sidebar-logo">
-					<a href="#" class="logo">
-						<img
-							src="./img/logo/logo-13.png"
-							alt="web-разработка"
-							class="logo-image"
-						/>
-					</a>
-					<a href="#" class="btn-clouse sidebar-close">
-						<img
-							src="./img/icons/door-open-solid.svg"
-							alt="закрыть"
-						/>
-					</a>
-				</div>
-				<nav class="side-menu sidebar-menu">
-					<ul class="side-menu-list">
-						<li class="side-menu-item">
-							<a
-								class="side-menu-link side-menu-link--activ"
-								href="#"
-								>Главная</a
-							>
-						</li>
-						<li class="side-menu-item">
-							<a class="side-menu-link" href="services.html"
-								>Услуги</a
-							>
-						</li>
-						<li class="side-menu-item">
-							<a class="side-menu-link" href="projects.html"
-								>Проекты</a
-							>
-						</li>
-						<li class="side-menu-item">
-							<a class="side-menu-link" href="technology.html"
-								>Технологии</a
-							>
-						</li>
-						<li class="side-menu-item">
-							<a
-								class="side-menu-link"
-								href="mailto:siluana@li.ru"
-							>
-								<div class="mail-title">e&#8209;mail:</div>
-								<div class="mail-content">
-									it-web@internet.ru
-								</div>
-							</a>
-						</li>
-						<li class="side-menu-item">
-							<a class="side-menu-link" href="tel:+79090333766">
-								<div class="phone-title">
-									контактный телефон:
-								</div>
-								<div class="phone-content">
-									+7 9090 333 766
-								</div></a
-							>
-						</li>
-					</ul>
-				</nav>
-			</aside>
-			<h1 class="header-title">Татьяна Бочарова</h1>
-			<p class="header-subtitle">
-				frontend&#8209;разработка, вёрстка, сопровождение
-				web&#8209;сайтов
-			</p>
-			<a href="#portfolio" class="header-arrow">
-				<img src="./img/header/chevron-down.svg" alt="Arrow" />
-			</a>
-		</header>
-
-		<main>
-			<section class="portfolio" id="portfolio">
-				<div class="container">
-					<h2 class="portfolio-header">Портфолио</h2>
-
-					<!-- portfolio-cards-wrapper -->
-					<div class="portfolio-cards-wrapper">
-						<!-- Card -->
-						<div class="card">
-							<a
-								href="projects.html#project-lost-shirt"
-								class="card-link"
-								target="_blank"
-							>
-								<img
-									class="card-img"
-									src="./img/portfolio/lost-shirt.jpg"
-									alt="Онлайн-магазин"
-								/>
-								<h3 class="card-title">Интернет-магазин</h3>
-								<p>Вёрстка сайта интернет-магазина одежды</p></a
-							>
-						</div>
-						<!-- //Card -->
-
-						<!-- Card -->
-						<div class="card">
-							<a
-								href="projects.html#project-unit"
-								class="card-link"
-								target="_blank"
-							>
-								<img
-									class="card-img"
-									src="./img/portfolio/unit.jpg"
-									alt="Адаптивный лендинг"
-								/>
-								<h3 class="card-title">Адаптивный лендинг</h3>
-								<p>
-									Вёрстка Landing Page с мобильной адаптацией
-								</p></a
-							>
-						</div>
-						<!-- //Card -->
-
-						<!-- Card -->
-						<div class="card">
-							<a
-								href="projects.html#project-forest"
-								class="card-link"
-								target="_blank"
-							>
-								<img
-									class="card-img"
-									src="./img/portfolio/forest.jpg"
-									alt="Многостраничный сайт"
-								/>
-								<h3 class="card-title">Многостраничный сайт</h3>
-								<p>Вёрстка многостраничного сайта</p></a
-							>
-						</div>
-						<!-- //Card -->
-
-						<!-- Card -->
-						<div class="card">
-							<a
-								href="projects.html#project-flowers"
-								class="card-link"
-								target="_blank"
-							>
-								<img
-									class="card-img"
-									src="./img/portfolio/flowers.jpg"
-									alt="Интернет-магазин"
-								/>
-								<h3 class="card-title">Интернет-магазин</h3>
-								<p>Вёрстка сайта интернет-магазина цветов</p></a
-							>
-						</div>
-						<!-- //Card -->
-					</div>
-					<!-- //portfolio-cards-wrapper -->
-					<div class="btn-more">
-						<a href="./projects.html" class="project-btn-back"
-							>Смотреть далее</a
+				<a href="#" class="btn-clouse sidebar-close">
+					<img src="./img/icons/door-open-solid.svg" alt="закрыть" />
+				</a>
+			</div>
+			<nav class="side-menu sidebar-menu">
+				<ul class="side-menu-list">
+					<li class="side-menu-item">
+						<a class="side-menu-link" href="index.html">Главная</a>
+					</li>
+					<li class="side-menu-item">
+						<a class="side-menu-link" href="./services.html"
+							>Услуги</a
 						>
+					</li>
+					<li class="side-menu-item">
+						<a
+							class="side-menu-link side-menu-link--activ"
+							href="projects.html"
+							>Проекты</a
+						>
+					</li>
+					<li class="side-menu-item">
+						<a class="side-menu-link" href="technology.html"
+							>Технологии</a
+						>
+					</li>
+					<li class="side-menu-item">
+						<a class="side-menu-link" href="mailto:siluana@li.ru">
+							<div class="mail-title">e-mail:</div>
+							<div class="mail-content">it-web@internet.ru</div>
+						</a>
+					</li>
+					<li class="side-menu-item">
+						<a class="side-menu-link" href="tel:+79090333766">
+							<div class="phone-title">контактный телефон:</div>
+							<div class="phone-content">+7 9090 333 766</div></a
+						>
+					</li>
+				</ul>
+			</nav>
+		</aside>
+		<main>
+			<div class="project-wrapper">
+				<div class="container">
+					<h3 class="project-card-title">Демо&#8209;версии сайтов</h3>
+					<div class="project-card services-description">
+						<div class="project-card-image">
+							<img src="./img/project/photo-1.png" alt="Фото" />
+						</div>
+						<div class="project-card-description">
+							<span>
+								Некоторые из&nbsp;функций демо&#8209;версий
+								сайтов не&nbsp;подключены. Я&nbsp;делаю
+								ту&nbsp;часть, которая видна пользователю
+								(front&#8209;end). Если сайт нужно сделать
+								с&nbsp;серверной частью, я&nbsp;работаю
+								в&nbsp;паре с&nbsp;бэкенд&#8209;разработчиком
+								(back&#8209;end)
+							</span>
+						</div>
+						<div class="project-card-image">
+							<img src="./img/project/photo-2.png" alt="Фото" />
+						</div>
 					</div>
 				</div>
-			</section>
+
+				<article class="project" id="project-lost-shirt">
+					<div class="container">
+						<h2 class="project-header">Проект «Lost-Shirt»</h2>
+						<div class="project-content">
+							<div class="project-img">
+								<img
+									src="./img/project/lost-shirt-coll.png"
+									alt="Проект «Elegance»"
+								/>
+							</div>
+							<div class="project-description">
+								<p>
+									Вёрстка сайта интернет&#8209;магазина
+									одежды. Главная страница, страница с
+									товарами. Фильтр товаров по категориям.
+								</p>
+								<p>
+									Адрес сайта:<br />
+									<a
+										href="https://t-skoro.github.io/lost-shirt/"
+										>https://t-skoro.github.io/lost-shirt/</a
+									>
+								</p>
+							</div>
+						</div>
+					</div>
+				</article>
+				<article class="project" id="project-unit">
+					<div class="container">
+						<h2 class="project-header">Проект «ЮНИТ»</h2>
+						<div class="project-content">
+							<div class="project-img">
+								<img
+									src="./img/project/unit.png"
+									alt="Верстка сайта «UNIT»"
+								/>
+							</div>
+							<div class="project-description">
+								<p>
+									Вёрстка сайта Landing&nbsp;Page
+									с&nbsp;мобильной адаптацией под планшеты
+									и&nbsp;смартфоны. Форма обратной связи,
+									статьи, слайдер с&nbsp;отзывами.
+								</p>
+								<p>
+									Адрес сайта:<br />
+									<a href="https://t-skoro.github.io/unit/"
+										>https://t-skoro.github.io/unit</a
+									>
+								</p>
+							</div>
+						</div>
+					</div>
+				</article>
+				<article class="project" id="project-forest">
+					<div class="container">
+						<h2 class="project-header">
+							Проект «Форест&#8209;тревел»
+						</h2>
+						<div class="project-content">
+							<div class="project-img">
+								<img
+									src="./img/project/forest-travel-coll.png"
+									alt="Верстка сайта «Форест-тревел»"
+								/>
+							</div>
+							<div class="project-description">
+								<p>
+									Вёрстка многостраничного сайта. Главная
+									страница, страница с&nbsp;услугами, карта
+									проезда с&nbsp;формой обратной связи,
+									страница со&nbsp;статьёй.
+								</p>
+								<p>
+									Адрес сайта:<br />
+									<a
+										href="https://t-skoro.github.io/forest-travel"
+										>https://t-skoro.github.io/forest-travel</a
+									>
+								</p>
+							</div>
+						</div>
+					</div>
+				</article>
+				<article class="project" id="project-flowers">
+					<div class="container">
+						<h2 class="project-header">Проект «Flowers»</h2>
+						<div class="project-content">
+							<div class="project-img">
+								<img
+									src="./img/project/flowers-coll.png"
+									alt="Проект «Flowers»"
+								/>
+							</div>
+							<div class="project-description">
+								<p>
+									Вёрстка сайта интернет&#8209;магазина
+									цветов. Главная страница. Каталог товаров,
+									отзывы клиентов, слайдер
+									с&nbsp;фотогалереей, модальные окна
+									с&nbsp;формой обратной связи. Счётчик
+									количества товаров. Управление сайтом через
+									CMS WordPress
+								</p>
+								<p>
+									Адрес сайта:<br />
+									<a href="http://k90903tz.beget.tech"
+										>http://k90903tz.beget.tech</a
+									>
+								</p>
+							</div>
+						</div>
+					</div>
+				</article>
+				<article class="project" id="project-flowers">
+					<div class="container">
+						<h2 class="project-header">Проект «Elegance»</h2>
+						<div class="project-content">
+							<div class="project-img">
+								<img
+									src="./img/project/elegance-coll.png"
+									alt="Проект «Elegance»"
+								/>
+							</div>
+							<div class="project-description">
+								<p>
+									Вёрстка сайта интернет&#8209;магазина
+									одежды. Главная страница. Каталог товаров,
+									размещение постов и&nbsp;статей, сбор
+									подписок
+									на&nbsp;e&#8209;mail&#8209;рассылку.
+								</p>
+								<p>
+									Адрес сайта:<br />
+									<a
+										href="https://t-skoro.github.io/elegance/"
+										>https://t-skoro.github.io/elegance/</a
+									>
+								</p>
+							</div>
+						</div>
+						<div class="btn-more">
+							<a href="index.html" class="project-btn-back"
+								>Вернуться на главную</a
+							>
+						</div>
+					</div>
+				</article>
+			</div>
 		</main>
 
 		<footer class="footer">
@@ -202,6 +258,7 @@
 							HTML / CSS / JavaScript <br />
 							вёрстка и разработка сайтов
 						</p>
+						<!-- <p>Макет сайта создан при участии WebCademy.ru</p> -->
 					</div>
 					<!-- //footer-copyright -->
 
@@ -367,13 +424,6 @@
 				</a>
 			</div>
 		</footer>
-
-		<!-- Библиотеки и плагины -->
-		<script src="libs/jquery/jquery-3.5.1.min.js"></script>
-		<script src="libs/vide/jquery.vide.min.js"></script>
-
-		<!-- Собственные скрипты и вызовы библиотек -->
-		<script src="js/main.js"></script>
 		<script src="js/sidebar-menu.js"></script>
 	</body>
 </html>
