@@ -181,7 +181,7 @@ img {
 	margin: 0;
 	margin-bottom: 70px;
 	font-weight: 700;
-	font-size: 46px;
+	font-size: 36px;
 	line-height: 130%;
 	text-align: center;
 }
@@ -429,7 +429,7 @@ path {
 	line-height: 1.8;
 }
 .project-card-title {
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 	font-size: 36px;
 }
 .btn-more {

@@ -129,6 +129,10 @@
 	.project {
 		padding-left: 45px;
 	}
+	.project-header {
+		font-size: 26px;
+		margin-bottom: 20px;
+	}
 	.project-content {
 		padding: 30px 15px;
 		margin-bottom: 30px;
@@ -137,6 +141,7 @@
 		margin-bottom: 20px;
 	}
 	.project-card-title {
+		margin-bottom: 20px;
 		padding-left: 45px;
 		font-size: 26px;
 	}
@@ -173,6 +178,14 @@
 		padding: 20px 15px;
 		border-radius: 4px;
 		background-color: #f4f5f6;
+	}
+	.footer {
+		padding-right: 5px;
+		padding-left: 50px;
+	}
+	.footer-main {
+		padding-right: 0;
+		padding-left: 0;
 	}
 }
 
@@ -249,10 +262,6 @@
 		position: absolute;
 		bottom: 20px;
 		right: 20px;
-	}
-	.project-header {
-		font-size: 26px;
-		margin-bottom: 20px;
 	}
 	.content-inner-subtitle {
 		font-size: 17px;
