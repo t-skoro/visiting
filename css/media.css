@@ -153,6 +153,7 @@
 	}
 	.project-card--technology {
 		margin-left: 0;
+		margin-right: 0;
 	}
 	.project-card-image img {
 		max-width: 50%;
@@ -162,10 +163,7 @@
 		line-height: 1.5;
 	}
 	.content-inner {
-		padding-top: 40px;
-		padding-right: 50px;
-		padding-bottom: 40px;
-		padding-left: 50px;
+		padding: 40px 45px;
 	}
 	.content-inner-description {
 		padding: 25px 20px;
