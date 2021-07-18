@@ -46,11 +46,12 @@ img {
 	top: 0;
 	left: 0;
 	padding: 10px 5px;
-	background-color: rgba(0, 204, 204, 0.75);
+	/* background-color: rgba(0, 204, 204, 0.75); */
 }
 .sidebar--project {
 	position: relative;
-	background-color: #00cccc;
+	padding-left: 30px;
+	/* background-color: #00cccc; */
 }
 .sidebar-logo {
 	display: inline-block;

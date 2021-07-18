@@ -41,7 +41,6 @@
 		top: 0;
 		padding-top: 0;
 		bottom: 0;
-		background: rgba(15, 35, 54, 0.95);
 		box-sizing: border-box;
 		display: flex;
 		align-items: center;
@@ -53,9 +52,11 @@
 		width: 320px;
 		padding: 0 3% 0 3%;
 		z-index: 9;
+		background: rgba(15, 35, 54, 0.95);
 	}
 	.sidebar--main {
 		position: absolute;
+		background: rgba(15, 35, 54, 0.95);
 	}
 	.sidebar-menu {
 		position: absolute;
@@ -126,10 +127,10 @@
 	.sidebar--opened .sidebar-burger {
 		display: none;
 	}
-	.project {
+	/* .project {
 		padding-left: 45px;
 		padding-right: 45px;
-	}
+	} */
 	.project-header {
 		font-size: 26px;
 		margin-bottom: 20px;
@@ -143,18 +144,18 @@
 	}
 	.project-card-title {
 		margin-bottom: 20px;
-		padding-left: 45px;
+		/* padding-left: 45px; */
 		font-size: 26px;
 	}
 	.project-card {
-		margin-left: 45px;
-		margin-right: 45px;
+		/* margin-left: 45px;
+		margin-right: 45px; */
 		flex-direction: column;
 	}
-	.project-card--technology {
+	/* .project-card--technology {
 		margin-left: 0;
 		margin-right: 0;
-	}
+	} */
 	.project-card-image img {
 		max-width: 50%;
 	}
@@ -162,9 +163,9 @@
 		font-size: 17px;
 		line-height: 1.5;
 	}
-	.content-inner {
+	/* .content-inner {
 		padding: 40px 45px;
-	}
+	} */
 	.content-inner-description {
 		padding: 25px 20px;
 		border-radius: 4px;
