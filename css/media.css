@@ -47,6 +47,7 @@
 		justify-content: space-evenly;
 		flex-direction: column;
 		transition: width 0.3s;
+		background-color: transparent;
 	}
 	.sidebar--opened {
 		width: 320px;
