@@ -6,7 +6,7 @@ html {
 }
 body {
 	margin: 0;
-	font-family: "Montserrat", sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	color: #0f2336;
 	background-color: #f4f5f6;
 }
@@ -95,7 +95,7 @@ img {
 }
 .side-menu-link:after {
 	display: block;
-	content: "";
+	content: '';
 	height: 2px;
 	width: 0%;
 	background-color: #0f2336;
@@ -160,6 +160,9 @@ img {
 	border-radius: 4px;
 	background-color: rgba(255, 255, 255, 0.75);
 }
+.header-subtitle--big {
+	margin-bottom: 20px;
+}
 .header-arrow {
 	width: 48px;
 	height: 48px;
@@ -172,7 +175,6 @@ img {
 .header-arrow:hover {
 	transform: translate(-50%, 15%);
 }
-
 /* --- Portfolio --- */
 .portfolio {
 	padding-top: 80px;
@@ -197,7 +199,7 @@ img {
 	max-width: 540px;
 	background-color: #fff;
 	border-radius: 4px;
-	box-shadow: 0px 10px 30px rgba(15, 35, 54, 0.3);
+	box-shadow: 0px 10px 20px rgba(15, 35, 54, 0.3);
 	transition: transform 0.2s ease-in;
 }
 .card:hover {
@@ -265,15 +267,13 @@ img {
 .footer-copyright p {
 	margin: 0;
 	margin-bottom: 15px;
-	font-size: 14px;
-	font-weight: 400;
+	font-size: 15px;
 	color: rgba(255, 255, 255, 0.7);
 }
 .footer-icons p {
 	margin: 0;
 	margin-bottom: 15px;
-	font-weight: 400;
-	font-size: 16px;
+	font-size: 15px;
 	line-height: 1.3;
 	color: #00cccc;
 }
@@ -310,12 +310,13 @@ path {
 .footer-button:hover {
 	background-color: #fff;
 	color: #00cccc;
-	box-shadow: 0px 5px 25px rgba(255, 255, 255, 0.7);
+	box-shadow: 0px 5px 20px rgba(255, 255, 255, 0.7);
 }
 .footer-contacts p {
-	margin: 15px 0;
+	margin: 0 0 15px;
 	font-size: 15px;
 	line-height: 1.3;
+	color: #00cccc;
 }
 .top {
 	position: absolute;
@@ -345,7 +346,7 @@ path {
 	padding-bottom: 55px;
 	margin-bottom: 55px;
 	border-radius: 4px;
-	box-shadow: 0px 10px 30px rgba(15, 35, 54, 0.3);
+	box-shadow: 0px 10px 20px rgba(15, 35, 54, 0.3);
 }
 .project:last-child {
 	padding-bottom: 0;
@@ -410,14 +411,14 @@ path {
 .project-btn-back:hover {
 	background-color: #00cccc;
 	color: #fff;
-	box-shadow: 0px 5px 25px #00cccc;
+	box-shadow: 0px 5px 20px #00cccc;
 }
 .project-card {
 	display: flex;
 	align-items: center;
 	margin-bottom: 40px;
 	color: #0f2336;
-	box-shadow: 0px 10px 30px rgba(15, 35, 54, 0.3);
+	box-shadow: 0px 10px 20px rgba(15, 35, 54, 0.3);
 }
 .project-card-description {
 	max-width: 600px;
@@ -449,7 +450,7 @@ path {
 	border-radius: 4px;
 	background-color: #f4f5f6;
 	margin-bottom: 55px;
-	box-shadow: 0px 10px 30px rgba(15, 35, 54, 0.3);
+	box-shadow: 0px 10px 20px rgba(15, 35, 54, 0.3);
 }
 .services-title {
 	margin-bottom: 40px;
@@ -475,7 +476,7 @@ path {
 	margin-bottom: 55px;
 	border-radius: 4px;
 	background-color: #f4f5f6;
-	box-shadow: 0px 10px 30px rgba(15, 35, 54, 0.3);
+	box-shadow: 0px 10px 20px rgba(15, 35, 54, 0.3);
 }
 .content-inner-subtitle {
 	font-size: 18px;
@@ -495,13 +496,13 @@ path {
 	margin-bottom: 55px;
 	border-radius: 4px;
 	background-color: #f4f5f6;
-	box-shadow: 0px 10px 30px rgba(15, 35, 54, 0.3);
+	box-shadow: 0px 10px 20px rgba(15, 35, 54, 0.3);
 }
 .card-services {
 	margin-bottom: 30px;
 	max-width: 430px;
 	background-color: #fff;
-	box-shadow: 0px 10px 30px rgba(15, 35, 54, 0.3);
+	box-shadow: 0px 10px 20px rgba(15, 35, 54, 0.3);
 	transition: transform 0.2s ease-in;
 	border-radius: 4px;
 }
@@ -536,4 +537,7 @@ path {
 	margin: 0;
 	font-size: 16px;
 	line-height: 130%;
+}
+.project-card-image {
+	max-width: 50%;
 }
