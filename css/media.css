@@ -146,9 +146,6 @@
 	.project-card {
 		flex-direction: column;
 	}
-	.project-card-image img {
-		max-width: 50%;
-	}
 	.project-card-description span {
 		font-size: 17px;
 		line-height: 1.5;
